@@ -29,10 +29,16 @@ body {
     line-height: 1.6;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 header {
     background:
         linear-gradient(rgba(58, 62, 22, 0.65), rgba(58, 62, 22, 0.70)),
-        url("assets/tournaq-background-banner-2.png");
+        url("../assets/tournaq-background-banner-2.png");
     background-size: cover;
     background-position: center;
 }
@@ -44,6 +50,43 @@ header {
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-burger {
+    display: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.12);
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.nav-burger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    border-radius: 999px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-toggle:checked + .nav-burger span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.nav-toggle:checked + .nav-burger span:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-toggle:checked + .nav-burger span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .logo {
@@ -60,35 +103,39 @@ header {
 
 .nav-links {
     display: flex;
-    gap: 18px;
+    gap: 16px;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-links a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.2px;
-    transition: opacity 0.2s;
+    padding: 8px 10px;
+    border-radius: 999px;
+    transition: background 0.2s, opacity 0.2s;
 }
 
 .nav-links a:hover {
-    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 0.95;
 }
 
 .hero {
     max-width: 760px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 24px;
+    padding: 60px 20px 36px;
 }
 
 .hero h1 {
     color: var(--gold);
-    font-size: 44px;
-    line-height: 1.1;
+    font-size: clamp(34px, 5vw, 48px);
+    line-height: 1.05;
     margin-bottom: 14px;
 }
 
@@ -110,7 +157,7 @@ header {
 main {
     max-width: 960px;
     margin: 0 auto;
-    padding: 48px 20px 80px;
+    padding: 40px 20px 80px;
     flex: 1;
     width: 100%;
 }
@@ -122,7 +169,7 @@ section {
 .section-title,
 section>h1,
 section>h2 {
-    font-size: 26px;
+    font-size: clamp(22px, 2vw, 26px);
     color: var(--olive-dark);
     margin-bottom: 12px;
 }
@@ -158,9 +205,10 @@ li {
 .grid,
 .downloads-grid,
 .roadmap,
-.three-grid {
+.three-grid,
+.guide-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 18px;
     margin-top: 24px;
 }
@@ -169,11 +217,22 @@ li {
 .download-card,
 .roadmap-step,
 .highlight,
-.info-box {
+.info-box,
+.guide-card,
+.card-link {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
     width: 100%;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover,
+.download-card:hover,
+.card-link:hover,
+.guide-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.10);
 }
 
 .card {
@@ -254,8 +313,10 @@ li {
 }
 
 .download-icon img {
-    width: 64px;
-    height: 64px;
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    height: auto;
     object-fit: contain;
 }
 
@@ -374,23 +435,81 @@ footer a {
 }
 
 @media (max-width: 760px) {
-    .nav {
+    header {
+        display: flex;
         flex-direction: column;
-        margin-bottom: 36px;
+    }
+
+    .nav {
+        flex-direction: row;
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 16px;
+        order: -1;
+        background: transparent;
+        flex-shrink: 0;
+    }
+
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .logo img {
+        height: 60px;
+        width: auto;
+        display: block;
     }
 
     .nav-links {
-        justify-content: center;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 12px;
+        gap: 10px;
+    }
+
+    .nav-burger {
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .nav-toggle:checked + .nav-burger + .nav-links {
+        display: flex;
+    }
+
+    .nav-links a {
+        width: 100%;
+        padding: 10px 14px;
+        text-align: center;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.08);
+    }
+
+    .hero {
+        padding: 12px 16px 14px;
+        margin: 0;
+        background: transparent;
     }
 
     .hero h1 {
-        font-size: 34px;
+        font-size: 26px;
+        margin-bottom: 4px;
+        line-height: 1.2;
+    }
+
+    .hero .subtitle,
+    .hero p {
+        font-size: 13px;
+        margin-bottom: 0;
+        line-height: 1.4;
     }
 
     .grid,
     .downloads-grid,
     .roadmap,
-    .three-grid {
+    .three-grid,
+    .guide-grid {
         grid-template-columns: 1fr;
     }
 
