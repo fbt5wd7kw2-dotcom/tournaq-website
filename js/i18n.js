@@ -384,7 +384,16 @@
   "guide.completion.game.title": "Game Complete",
   "guide.completion.game.text": "When the match is decided the game completion screen shows all set results and the winner. The match is saved to Match History.",
   "index.cta.guide": "Read User Guide",
-  "index.cta.downloads": "View Downloads"
+  "index.cta.downloads": "View Downloads",
+  "index.problem.title": "Tournament Management Is Still Done on Paper",
+  "index.problem.intro": "Running a beach volleyball tournament means juggling dozens of matches, courts, and teams — often with nothing but a notebook. When anything changes, everything breaks:",
+  "index.problem.li1": "Court availability shifts without notice",
+  "index.problem.li2": "Injuries pull teams out mid-tournament",
+  "index.problem.li3": "Bracket recalculations take too long and introduce errors",
+  "index.problem.li4": "League standings, seeding, and double-elimination systems are nearly impossible to manage manually",
+  "index.problem.li5": "Last-minute scrambles leave organizers and players in the dark",
+  "index.problem.text": "There is no widely adopted digital solution built specifically for beach volleyball. TournaQ is being built to change that — starting with reliable live scoring and expanding into a complete tournament management platform.",
+  "index.vision.title": "Where We're Headed"
 },
     de: {
   "nav.home": "Start",
@@ -766,7 +775,16 @@
   "guide.completion.game.title": "Spiel abgeschlossen",
   "guide.completion.game.text": "Nach Spielende zeigt der Abschlussbildschirm alle Satzergebnisse und den Gewinner. Das Spiel wird in der Spielhistorie gespeichert.",
   "index.cta.guide": "Benutzeranleitung lesen",
-  "index.cta.downloads": "Downloads ansehen"
+  "index.cta.downloads": "Downloads ansehen",
+  "index.problem.title": "Turnierorganisation läuft noch auf Papier",
+  "index.problem.intro": "Ein Beach-Volleyball-Turnier zu organisieren bedeutet, Dutzende von Spielen, Feldern und Teams zu koordinieren – oft nur mit einem Notizbuch. Sobald sich etwas ändert, gerät alles durcheinander:",
+  "index.problem.li1": "Feldverfügbarkeit ändert sich ohne Vorankündigung",
+  "index.problem.li2": "Verletzungen nehmen Teams mitten im Turnier aus dem Rennen",
+  "index.problem.li3": "Neuberechnungen von Spielplänen dauern zu lang und führen zu Fehlern",
+  "index.problem.li4": "Ranglisten, Setzlisten und Doppel-K.o.-Systeme sind manuell kaum zu bewältigen",
+  "index.problem.li5": "Kurzfristige Umplanungen lassen Veranstalter und Spieler im Unklaren",
+  "index.problem.text": "Es gibt noch keine weit verbreitete digitale Lösung, die speziell für Beach-Volleyball entwickelt wurde. TournaQ wird genau das ändern – beginnend mit zuverlässiger Live-Punktewertung und wachsend zu einer vollständigen Turnierverwaltungsplattform.",
+  "index.vision.title": "Wohin wir uns entwickeln"
 },
     es: {
   "nav.home": "Inicio",
@@ -1148,7 +1166,16 @@
   "guide.completion.game.title": "Partido completado",
   "guide.completion.game.text": "Al decidirse el partido, la pantalla de finalización muestra todos los resultados por set y el ganador. El partido se guarda en el historial.",
   "index.cta.guide": "Leer guía de usuario",
-  "index.cta.downloads": "Ver descargas"
+  "index.cta.downloads": "Ver descargas",
+  "index.problem.title": "La organización de torneos sigue haciéndose en papel",
+  "index.problem.intro": "Organizar un torneo de voleibol playa significa coordinar decenas de partidos, canchas y equipos — muchas veces solo con un cuaderno. Cuando algo cambia, todo se desmorona:",
+  "index.problem.li1": "La disponibilidad de canchas cambia sin previo aviso",
+  "index.problem.li2": "Las lesiones dejan a equipos fuera del torneo",
+  "index.problem.li3": "Recalcular cuadros lleva demasiado tiempo y genera errores",
+  "index.problem.li4": "Las clasificaciones, el seeding y los sistemas de doble eliminación son casi imposibles de gestionar manualmente",
+  "index.problem.li5": "Los cambios de última hora dejan a organizadores y jugadores sin información",
+  "index.problem.text": "No existe ninguna solución digital ampliamente adoptada específicamente para el voleibol playa. TournaQ se está construyendo para cambiar eso — empezando con puntuación en vivo fiable y creciendo hasta convertirse en una plataforma completa de gestión de torneos.",
+  "index.vision.title": "Hacia dónde vamos"
 }
   };
 

@@ -21,16 +21,8 @@
       align-items: center;
       text-align: center;
     }
-    .feature-card h3 {
-      color: var(--olive);
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-    .feature-card p {
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 16px;
-    }
+    .feature-card h3 { color: var(--olive); font-size: 18px; margin-bottom: 10px; }
+    .feature-card p  { font-size: 14px; line-height: 1.6; margin-bottom: 16px; }
     .feature-card img {
       max-width: 160px;
       width: 100%;
@@ -38,12 +30,13 @@
       border: 1px solid var(--border);
       margin-top: auto;
     }
+
     .cta-row {
       display: flex;
       gap: 16px;
       justify-content: center;
       flex-wrap: wrap;
-      margin-top: 12px;
+      margin-top: 32px;
     }
     .btn-outline {
       display: inline-block;
@@ -56,10 +49,7 @@
       border-radius: 10px;
       transition: background 0.15s, color 0.15s;
     }
-    .btn-outline:hover {
-      background: var(--olive);
-      color: white;
-    }
+    .btn-outline:hover { background: var(--olive); color: white; }
   </style>
 </head>
 
@@ -122,34 +112,76 @@
         <div class="feature-card">
           <h3 data-i18n="index.card.multilingual.title">Multilingual App</h3>
           <p data-i18n="index.card.multilingual.text">Designed with international use in mind, including English, German and Spanish.</p>
-          <img src="../assets/homescreen.PNG" alt="TournaQ home screen">
+          <img src="../assets/homescreen_spanish.PNG" alt="TournaQ in Spanish">
         </div>
       </div>
 
-      <div class="cta-row" style="margin-top: 32px;">
+      <div class="cta-row">
         <a href="user-guide.html" class="button" data-i18n="index.cta.guide">Read User Guide</a>
         <a href="downloads.html" class="btn-outline" data-i18n="index.cta.downloads">View Downloads</a>
       </div>
     </section>
 
-    <!-- Why Beach Volleyball -->
-    <section class="highlight" id="why">
-      <h2 data-i18n="product.why.title">Why Beach Volleyball?</h2>
-      <p data-i18n="product.why.intro">Beach volleyball presents unique challenges for tournament organizers and scorekeepers:</p>
+    <!-- The Problem -->
+    <section class="highlight" id="problem">
+      <h2 data-i18n="index.problem.title">Tournament Management Is Still Done on Paper</h2>
+      <p data-i18n="index.problem.intro">Running a beach volleyball tournament means juggling dozens of matches, courts, and teams — often with nothing but a notebook. When anything changes, everything breaks:</p>
 
       <ul>
-        <li data-i18n="product.why.li1">Outdoor environments</li>
-        <li data-i18n="product.why.li2">Limited internet connectivity</li>
-        <li data-i18n="product.why.li3">Fast-paced match administration</li>
-        <li data-i18n="product.why.li4">Frequent tournament play</li>
-        <li data-i18n="product.why.li5">Mobile-first usage</li>
+        <li data-i18n="index.problem.li1">Court availability shifts without notice</li>
+        <li data-i18n="index.problem.li2">Injuries pull teams out mid-tournament</li>
+        <li data-i18n="index.problem.li3">Bracket recalculations take too long and introduce errors</li>
+        <li data-i18n="index.problem.li4">League standings, seeding, and double-elimination systems are nearly impossible to manage manually</li>
+        <li data-i18n="index.problem.li5">Last-minute scrambles leave organizers and players in the dark</li>
       </ul>
 
-      <p style="margin-top: 16px;" data-i18n="product.why.text">
-        TournaQ was designed specifically with these requirements in mind.
-        By focusing on beach volleyball first, the platform can provide a more refined and practical experience
-        before expanding into broader tournament functionality.
+      <p style="margin-top: 16px;" data-i18n="index.problem.text">
+        There is no widely adopted digital solution built specifically for beach volleyball.
+        TournaQ is being built to change that — starting with reliable live scoring and expanding
+        into a complete tournament management platform.
       </p>
+    </section>
+
+    <!-- Product Direction -->
+    <section id="direction">
+      <h2 class="section-title" data-i18n="index.vision.title">Where We're Headed</h2>
+
+      <div class="three-grid">
+        <div class="card">
+          <h3 data-i18n="product.direction.today.title">Today</h3>
+          <p data-i18n="product.direction.today.text">TournaQ provides a fast and reliable beach volleyball scoring experience.</p>
+          <ul>
+            <li data-i18n="product.direction.today.li1">Scoring</li>
+            <li data-i18n="product.direction.today.li2">Teams</li>
+            <li data-i18n="product.direction.today.li3">Players</li>
+            <li data-i18n="product.direction.today.li4">Match management</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="product.direction.next.title">Next</h3>
+          <p data-i18n="product.direction.next.text">Future development will expand tournament functionality.</p>
+          <ul>
+            <li data-i18n="product.direction.next.li1">Tournament setup</li>
+            <li data-i18n="product.direction.next.li2">Scheduling</li>
+            <li data-i18n="product.direction.next.li3">Standings</li>
+            <li data-i18n="product.direction.next.li4">Competition formats</li>
+            <li data-i18n="product.direction.next.li5">Bracket management</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 data-i18n="product.direction.longterm.title">Long-Term</h3>
+          <p data-i18n="product.direction.longterm.text">A complete tournament management platform from planning through final results.</p>
+          <ul>
+            <li data-i18n="product.direction.longterm.li1">Competition administration</li>
+            <li data-i18n="product.direction.longterm.li2">Participant management</li>
+            <li data-i18n="product.direction.longterm.li3">Tournament operations</li>
+            <li data-i18n="product.direction.longterm.li4">Rankings and statistics</li>
+            <li data-i18n="product.direction.longterm.li5">Historical tournament data</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
     <!-- Who it's for -->
@@ -174,13 +206,11 @@
     <!-- Roadmap -->
     <section id="roadmap">
       <h2 class="section-title" data-i18n="index.roadmap.title">Roadmap</h2>
-
       <p class="section-text" data-i18n="index.roadmap.text">
         The vision is to evolve from scoring into a complete tournament management platform.
       </p>
 
       <div class="roadmap">
-
         <div class="roadmap-step">
           <div class="phase-status completed-status" data-i18n="index.roadmap.phase1.status">✓ Completed</div>
           <strong data-i18n="index.roadmap.phase1.label">Phase 1</strong>
@@ -198,7 +228,6 @@
           <strong data-i18n="index.roadmap.phase3.label">Phase 3</strong>
           <div data-i18n="index.roadmap.phase3.name">Organizer Platform</div>
         </div>
-
       </div>
     </section>
 

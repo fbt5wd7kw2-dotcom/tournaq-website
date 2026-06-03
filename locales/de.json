@@ -378,5 +378,14 @@
   "guide.completion.game.title": "Spiel abgeschlossen",
   "guide.completion.game.text": "Nach Spielende zeigt der Abschlussbildschirm alle Satzergebnisse und den Gewinner. Das Spiel wird in der Spielhistorie gespeichert.",
   "index.cta.guide": "Benutzeranleitung lesen",
-  "index.cta.downloads": "Downloads ansehen"
+  "index.cta.downloads": "Downloads ansehen",
+  "index.problem.title": "Turnierorganisation läuft noch auf Papier",
+  "index.problem.intro": "Ein Beach-Volleyball-Turnier zu organisieren bedeutet, Dutzende von Spielen, Feldern und Teams zu koordinieren – oft nur mit einem Notizbuch. Sobald sich etwas ändert, gerät alles durcheinander:",
+  "index.problem.li1": "Feldverfügbarkeit ändert sich ohne Vorankündigung",
+  "index.problem.li2": "Verletzungen nehmen Teams mitten im Turnier aus dem Rennen",
+  "index.problem.li3": "Neuberechnungen von Spielplänen dauern zu lang und führen zu Fehlern",
+  "index.problem.li4": "Ranglisten, Setzlisten und Doppel-K.o.-Systeme sind manuell kaum zu bewältigen",
+  "index.problem.li5": "Kurzfristige Umplanungen lassen Veranstalter und Spieler im Unklaren",
+  "index.problem.text": "Es gibt noch keine weit verbreitete digitale Lösung, die speziell für Beach-Volleyball entwickelt wurde. TournaQ wird genau das ändern – beginnend mit zuverlässiger Live-Punktewertung und wachsend zu einer vollständigen Turnierverwaltungsplattform.",
+  "index.vision.title": "Wohin wir uns entwickeln"
 }

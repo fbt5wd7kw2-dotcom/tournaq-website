@@ -378,5 +378,14 @@
   "guide.completion.game.title": "Partido completado",
   "guide.completion.game.text": "Al decidirse el partido, la pantalla de finalización muestra todos los resultados por set y el ganador. El partido se guarda en el historial.",
   "index.cta.guide": "Leer guía de usuario",
-  "index.cta.downloads": "Ver descargas"
+  "index.cta.downloads": "Ver descargas",
+  "index.problem.title": "La organización de torneos sigue haciéndose en papel",
+  "index.problem.intro": "Organizar un torneo de voleibol playa significa coordinar decenas de partidos, canchas y equipos — muchas veces solo con un cuaderno. Cuando algo cambia, todo se desmorona:",
+  "index.problem.li1": "La disponibilidad de canchas cambia sin previo aviso",
+  "index.problem.li2": "Las lesiones dejan a equipos fuera del torneo",
+  "index.problem.li3": "Recalcular cuadros lleva demasiado tiempo y genera errores",
+  "index.problem.li4": "Las clasificaciones, el seeding y los sistemas de doble eliminación son casi imposibles de gestionar manualmente",
+  "index.problem.li5": "Los cambios de última hora dejan a organizadores y jugadores sin información",
+  "index.problem.text": "No existe ninguna solución digital ampliamente adoptada específicamente para el voleibol playa. TournaQ se está construyendo para cambiar eso — empezando con puntuación en vivo fiable y creciendo hasta convertirse en una plataforma completa de gestión de torneos.",
+  "index.vision.title": "Hacia dónde vamos"
 }
