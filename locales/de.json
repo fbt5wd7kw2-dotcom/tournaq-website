@@ -380,12 +380,12 @@
   "index.cta.guide": "Benutzeranleitung lesen",
   "index.cta.downloads": "Downloads ansehen",
   "index.problem.title": "Turnierorganisation läuft noch auf Papier",
-  "index.problem.intro": "Ein Beach-Volleyball-Turnier zu organisieren bedeutet, Dutzende von Spielen, Feldern und Teams zu koordinieren – oft nur mit einem Notizbuch. Sobald sich etwas ändert, gerät alles durcheinander:",
-  "index.problem.li1": "Feldverfügbarkeit ändert sich ohne Vorankündigung",
-  "index.problem.li2": "Verletzungen nehmen Teams mitten im Turnier aus dem Rennen",
-  "index.problem.li3": "Neuberechnungen von Spielplänen dauern zu lang und führen zu Fehlern",
-  "index.problem.li4": "Ranglisten, Setzlisten und Doppel-K.o.-Systeme sind manuell kaum zu bewältigen",
+  "index.problem.intro": "Die Organisation eines Beach-Volleyball-Turniers läuft noch weitgehend auf Papier ab. Spielbögen müssen vorbereitet, an jedes Feld verteilt, nach jedem Spiel eingesammelt und manuell ausgewertet werden – ein langsamer, fehleranfälliger Prozess, den TournaQ mit digitaler Live-Punktewertung bereits ersetzt.",
+  "index.problem.li1": "Feldwechsel und kurzfristige Absagen sind schwer in Echtzeit zu kommunizieren",
+  "index.problem.li2": "Verletzungen und Teamausfälle erfordern ungeplante Anpassungen im Spielplan",
+  "index.problem.li3": "Ranglisten, Setzlisten und Doppel-K.o.-Systeme erfordern komplexe manuelle Berechnungen",
+  "index.problem.li4": "Ligaphasen und Scramble-Formate verursachen erheblichen Koordinationsaufwand",
   "index.problem.li5": "Kurzfristige Umplanungen lassen Veranstalter und Spieler im Unklaren",
-  "index.problem.text": "Es gibt noch keine weit verbreitete digitale Lösung, die speziell für Beach-Volleyball entwickelt wurde. TournaQ wird genau das ändern – beginnend mit zuverlässiger Live-Punktewertung und wachsend zu einer vollständigen Turnierverwaltungsplattform.",
+  "index.problem.text": "Es gibt noch keine weit verbreitete digitale Plattform, die speziell für Beach-Volleyball entwickelt wurde. TournaQ wird genau das ändern – beginnend mit der Punktewertung und wachsend zu einer vollständigen Turnierverwaltungslösung.",
   "index.vision.title": "Wohin wir uns entwickeln"
 }
